@@ -32,6 +32,9 @@ div {
   position: relative;
 }
 
+.emp-hist {
+  font-weight: bold;
+}
 .left {
   height: 1000px;
   width: 45px;
@@ -47,13 +50,8 @@ div {
   float: right;
   position: inherit;
 }
-
-.stuff {
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 55px;
-  width: 75%;
-  height: 1000px;
+#hits-display {
+  font-weight: bold;
 }
 
 p,
@@ -63,6 +61,8 @@ li {
 
 .head {
   font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #name {
