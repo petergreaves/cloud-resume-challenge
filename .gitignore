@@ -1,1 +1,6 @@
-**/.terraform/*
+tf/.terraform
+tf/.terraform.lock.hcl
+tf/modules/modules.json
+tf/providers
+tf/terraform.tfstate
+tf/terraform.tfstate.backup

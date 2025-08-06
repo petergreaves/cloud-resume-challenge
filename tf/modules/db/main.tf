@@ -12,14 +12,14 @@ terraform {
 # create dynamo db table for metrics
 # DynamoDB table for metrics
 resource "aws_dynamodb_table" "metrics" {
-  name           = "metrics"
+  name           = "resume-data"
   billing_mode   = "PROVISIONED"  # Use provisioned capacity for free tier
-  hash_key       = "hits"
+  hash_key       = "metric"
 
 
   attribute {
-    name = "hits"
-    type = "N"
+    name = "metric"
+    type = "S"
   }
   
   # Free tier includes 25 RCUs and 25 WCUs
